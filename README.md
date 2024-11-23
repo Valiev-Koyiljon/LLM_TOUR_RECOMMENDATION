@@ -45,7 +45,6 @@ ollama pull llama3.2
 The system takes weather data and attraction information to generate personalized travel plans. Here's a basic example:
 
 ```python
-from travel_planner import process_prompt, initialize_agent
 
 # Sample data
 data = [{
