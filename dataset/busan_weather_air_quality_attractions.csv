@@ -1,0 +1,36 @@
+Date,Temp High (C),Temp Low (C),Weather,Air Quality,Attraction,Recommended Time (hrs)
+2024-10-05,30,14,Windy,Hazardous,Haeundae Beach,2.98
+2024-10-05,30,14,Windy,Hazardous,Gwangalli Beach,3.18
+2024-10-05,30,14,Windy,Hazardous,Taejongdae,3.63
+2024-10-05,30,14,Windy,Hazardous,Beomeosa Temple,2.4
+2024-10-05,30,14,Windy,Hazardous,Gamcheon Culture Village,1.09
+2024-10-06,22,9,Snowy,Moderate,Haeundae Beach,1.56
+2024-10-06,22,9,Snowy,Moderate,Gwangalli Beach,1.13
+2024-10-06,22,9,Snowy,Moderate,Taejongdae,4.79
+2024-10-06,22,9,Snowy,Moderate,Beomeosa Temple,4.33
+2024-10-06,22,9,Snowy,Moderate,Gamcheon Culture Village,2.45
+2024-10-07,30,15,Snowy,Hazardous,Haeundae Beach,2.51
+2024-10-07,30,15,Snowy,Hazardous,Gwangalli Beach,1.12
+2024-10-07,30,15,Snowy,Hazardous,Taejongdae,1.71
+2024-10-07,30,15,Snowy,Hazardous,Beomeosa Temple,3.22
+2024-10-07,30,15,Snowy,Hazardous,Gamcheon Culture Village,3.42
+2024-10-08,18,12,Windy,Moderate,Haeundae Beach,1.05
+2024-10-08,18,12,Windy,Moderate,Gwangalli Beach,3.18
+2024-10-08,18,12,Windy,Moderate,Taejongdae,2.91
+2024-10-08,18,12,Windy,Moderate,Beomeosa Temple,4.41
+2024-10-08,18,12,Windy,Moderate,Gamcheon Culture Village,4.13
+2024-10-09,28,10,Snowy,Very Unhealthy,Haeundae Beach,2.82
+2024-10-09,28,10,Snowy,Very Unhealthy,Gwangalli Beach,4.55
+2024-10-09,28,10,Snowy,Very Unhealthy,Taejongdae,1.67
+2024-10-09,28,10,Snowy,Very Unhealthy,Beomeosa Temple,3.99
+2024-10-09,28,10,Snowy,Very Unhealthy,Gamcheon Culture Village,2.86
+2024-10-10,18,13,Sunny,Moderate,Haeundae Beach,1.79
+2024-10-10,18,13,Sunny,Moderate,Gwangalli Beach,2.01
+2024-10-10,18,13,Sunny,Moderate,Taejongdae,1.71
+2024-10-10,18,13,Sunny,Moderate,Beomeosa Temple,2.62
+2024-10-10,18,13,Sunny,Moderate,Gamcheon Culture Village,4.48
+2024-10-11,20,10,Snowy,Hazardous,Haeundae Beach,4.98
+2024-10-11,20,10,Snowy,Hazardous,Gwangalli Beach,3.84
+2024-10-11,20,10,Snowy,Hazardous,Taejongdae,1.59
+2024-10-11,20,10,Snowy,Hazardous,Beomeosa Temple,3.71
+2024-10-11,20,10,Snowy,Hazardous,Gamcheon Culture Village,1.62
