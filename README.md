@@ -1,15 +1,19 @@
+Here's the updated README file with slight changes to make it more polished and concise:
+
+---
+
 # LLM Tour Recommendation
 
 An intelligent travel planning system that generates optimized daily schedules and recommendations for travelers in Busan using LangChain and multiple AI agents.
 
 ## 🌟 Features
 
-- Dual-agent system for comprehensive travel planning:
-  - Schedule Generator: Creates detailed daily itineraries
-  - Recommendation Generator: Provides contextual travel tips and precautions
-- Weather-aware planning that considers temperature, air quality, and conditions
-- Dynamic scheduling based on attraction visit times
-- GPU acceleration support for M1 Macs (MPS)
+- **Dual-Agent System**:
+  - **Schedule Generator**: Crafts detailed daily itineraries based on attraction visit times.
+  - **Recommendation Generator**: Offers contextual travel tips and weather precautions.
+- **Weather-Aware Planning**: Adapts to temperature, air quality, and weather conditions.
+- **Dynamic Scheduling**: Adjusts plans for optimal travel experiences.
+- **GPU Acceleration**: Supports M1 Macs with Metal Performance Shaders (MPS).
 
 ## 📋 Prerequisites
 
@@ -21,31 +25,30 @@ An intelligent travel planning system that generates optimized daily schedules a
 ## 🚀 Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/Valiev-Koyiljon/LLM_TOUR_RECOMMENDATION.git
-cd LLM_TOUR_RECOMMENDATION
-```
+   ```bash
+   git clone https://github.com/Valiev-Koyiljon/LLM_TOUR_RECOMMENDATION.git
+   cd LLM_TOUR_RECOMMENDATION
+   ```
 
 2. Install required packages:
-```bash
-pip install torch langchain ollama
-```
+   ```bash
+   pip install torch langchain ollama
+   ```
 
 3. Install Ollama and download the llama3.2 model:
-```bash
-# Install Ollama (varies by OS)
-curl https://ollama.ai/install.sh | sh
+   ```bash
+   # Install Ollama (varies by OS)
+   curl https://ollama.ai/install.sh | sh
 
-# Pull the model
-ollama pull llama3.2
-```
+   # Pull the model
+   ollama pull llama3.2
+   ```
 
 ## 💻 Usage
 
-The system takes weather data and attraction information to generate personalized travel plans. Here's a basic example:
+The system processes weather data and attraction information to create personalized travel plans. Here's an example:
 
 ```python
-
 # Sample data
 data = [{
     "date": "2024-10-05",
@@ -66,28 +69,28 @@ data = [{
 agent = initialize_agent(tools, llm, agent=AgentType.OPENAI_FUNCTIONS, verbose=True)
 for entry in data:
     result = process_prompt(agent, entry["date"], entry["temp_high"], 
-                          entry["temp_low"], entry["weather"], 
-                          entry["air_quality"], entry["attractions"])
+                            entry["temp_low"], entry["weather"], 
+                            entry["air_quality"], entry["attractions"])
     print(result)
 ```
 
 ## 🏗️ System Architecture
 
-The system consists of two main AI agents:
+The system leverages two key AI agents:
 
 1. **Schedule Generator**
-   - Creates detailed daily schedules
-   - Considers weather conditions and attraction visit times
-   - Optimizes the order of visits
+   - Designs efficient daily schedules.
+   - Considers weather and attraction visit times.
+   - Optimizes visit order for convenience.
 
 2. **Recommendation Generator**
-   - Provides weather-specific advice
-   - Suggests precautions based on air quality
-   - Offers tips for maximizing the travel experience
+   - Provides weather-specific advice.
+   - Recommends precautions based on air quality.
+   - Shares tips to enhance travel enjoyment.
 
 ## 📝 Input Data Format
 
-The system expects data in the following JSON format:
+Input data should follow this JSON structure:
 
 ```json
 {
@@ -107,6 +110,7 @@ The system expects data in the following JSON format:
 
 ## 🔧 Configuration
 
-- GPU acceleration is automatically enabled for M1 Macs using MPS
-- The system uses the llama3.2 model through Ollama
-- Agent verbosity can be configured during initialization
+- GPU acceleration is enabled for M1 Macs via MPS.
+- The system utilizes the llama3.2 model through Ollama.
+- Agent verbosity is adjustable during initialization.
+
