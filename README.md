@@ -1,6 +1,4 @@
-Here's the updated README file with slight changes to make it more polished and concise:
 
----
 
 # LLM Tour Recommendation
 
